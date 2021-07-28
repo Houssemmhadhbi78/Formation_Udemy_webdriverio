@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627482378406' stop='1627482391437'>
+    <name>Windows and Frames Miscellanous</name>
+    <title>Windows and Frames Miscellanous</title>
+    <test-cases>
+        <test-case start='1627482378413' status='pending' stop='1627482378413'>
+            <name>Parent and Child windows switch</name>
+            <title>Parent and Child windows switch</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1627482378414' status='passed' stop='1627482391417'>
+            <name>Frames switch</name>
+            <title>Frames switch</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-6'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

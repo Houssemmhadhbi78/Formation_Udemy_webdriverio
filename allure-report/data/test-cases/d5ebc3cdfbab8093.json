@@ -1,0 +1,67 @@
+{
+  "uid" : "d5ebc3cdfbab8093",
+  "name" : "TestCase: Login Success Page Title",
+  "fullName" : "Ecommerce Application Login.TestCase: Login Success Page Title",
+  "historyId" : "f706649239a05b7dedb11e215d783ce1",
+  "time" : {
+    "start" : 1627482375277,
+    "stop" : 1627482392631,
+    "duration" : 17354
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase: Login Success Page Title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "172b4050eb1bd57",
+      "status" : "broken",
+      "statusDetails" : "element (\".nav-link.btn.btn-primary\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1627482330733,
+        "stop" : 1627482362178,
+        "duration" : 31445
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d5ebc3cdfbab8093.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

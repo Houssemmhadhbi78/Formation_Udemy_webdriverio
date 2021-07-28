@@ -1,0 +1,57 @@
+{
+  "uid" : "96047130d74529fa",
+  "name" : "Checkboxes Identification",
+  "fullName" : "Ecommerce Application .Checkboxes Identification",
+  "historyId" : "6d32db1ee8b67c684d3ab473511cdc19",
+  "time" : {
+    "start" : 1627482398725,
+    "stop" : 1627482398725,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "Checkboxes Identification"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b1f4502eb9f9878b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1627481513516,
+        "stop" : 1627481513516,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "96047130d74529fa.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,82 @@
+{
+  "uid" : "eaabfe8aaac2d61",
+  "name" : "Web Table Filter validation",
+  "fullName" : "Functional Testing on Application .Web Table Filter validation",
+  "historyId" : "7a05ba2bcd89ae7f9fe3243e1feaaaef",
+  "time" : {
+    "start" : 1627482778481,
+    "stop" : 1627482790836,
+    "duration" : 12355
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Expect $(`//tr/td[1]`) to have text containing\n                \n                Expected: \"Tomto\"\n                Received: \"Tomato\"",
+  "statusTrace" : "Error: Expect $(`//tr/td[1]`) to have text containing\n                \n                Expected: \"Tomto\"\n                Received: \"Tomato\"\n                    at Context.<anonymous> (E:\\2021.07.Formation_Udemy_webdriverio\\test\\specs\\functionalScenarios.js:70:36)\n                    at Context.executeSync (E:\\2021.07.Formation_Udemy_webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\2021.07.Formation_Udemy_webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Expect $(`//tr/td[1]`) to have text containing\n                \n                Expected: \"Tomto\"\n                Received: \"Tomato\"",
+    "statusTrace" : "Error: Expect $(`//tr/td[1]`) to have text containing\n                \n                Expected: \"Tomto\"\n                Received: \"Tomato\"\n                    at Context.<anonymous> (E:\\2021.07.Formation_Udemy_webdriverio\\test\\specs\\functionalScenarios.js:70:36)\n                    at Context.executeSync (E:\\2021.07.Formation_Udemy_webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:38:22)\n                    at E:\\2021.07.Formation_Udemy_webdriverio\\node_modules\\@wdio\\sync\\build\\index.js:69:68",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4991f345c6ab4d47",
+      "name" : "Screenshot",
+      "source" : "4991f345c6ab4d47.png",
+      "type" : "image/png",
+      "size" : 20843
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "Web Table Filter validation"
+  }, {
+    "name" : "package",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eaabfe8aaac2d61.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

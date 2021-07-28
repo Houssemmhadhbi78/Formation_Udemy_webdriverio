@@ -1,0 +1,66 @@
+{
+  "uid" : "ec03f12e5bfaa0c8",
+  "name" : "Scrolling and Mouse Hover",
+  "fullName" : "Functional Testing on Application .Scrolling and Mouse Hover",
+  "historyId" : "b83fd39dc2006e430bae2bedd25e4bdc",
+  "time" : {
+    "start" : 1627482778478,
+    "stop" : 1627482778480,
+    "duration" : 2
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "Scrolling and Mouse Hover"
+  }, {
+    "name" : "package",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8a6b7b85a2aac57c",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1627482732513,
+        "stop" : 1627482732513,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "748477c5f3129d43",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1627482319401,
+        "stop" : 1627482319402,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ec03f12e5bfaa0c8.json",
+  "parameterValues" : [ ]
+}

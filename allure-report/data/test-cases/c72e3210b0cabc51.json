@@ -1,0 +1,56 @@
+{
+  "uid" : "c72e3210b0cabc51",
+  "name" : "TestCase: Login Fail Page Title",
+  "fullName" : "Ecommerce Application Login.TestCase: Login Fail Page Title",
+  "historyId" : "a6e4d097fb35448ef83b503b73e334d6",
+  "time" : {
+    "start" : 1627482319337,
+    "stop" : 1627482330732,
+    "duration" : 11395
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestCase: Login Fail Page Title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c72e3210b0cabc51.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "c239210df8c6c990",
+  "name" : "UI Controls sanity",
+  "fullName" : "Ecommerce Application .UI Controls sanity",
+  "historyId" : "2c9f68423e1c47f206c7202f5a4a2fe7",
+  "time" : {
+    "start" : 1627482355353,
+    "stop" : 1627482369703,
+    "duration" : 14350
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "UI Controls sanity"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8c33b784d8cb8a75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627481487158,
+        "stop" : 1627481500014,
+        "duration" : 12856
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c239210df8c6c990.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

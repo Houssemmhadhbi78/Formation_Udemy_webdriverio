@@ -1,0 +1,30 @@
+{
+  "name": "2021.07.Formation_Udemy_webdriverio",
+  "version": "1.0.0",
+  "description": "WebDriverIO-cucumber -V5 Tutorial\r https://www.youtube.com/playlist?list=PLXBKC3hh6AEr5dMdptmk5-S5_yyHKQ4cW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "CreditCardTests": "npx wdio run wdio.conf.js --suite creditCard",
+    "QARegression": "npx wdio run wdio.conf.js ",
+    "UATRegression": "npx wdio run wdio.uat.conf.js ",
+    "DeditCardTests": "npx wdio run wdio.conf.js --suite debitCard",
+    "GenerateReport": "allure generate allure-results --clean && allure open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.8.0",
+    "@wdio/cli": "^7.7.8",
+    "@wdio/local-runner": "^7.7.8",
+    "@wdio/mocha-framework": "^7.7.7",
+    "@wdio/spec-reporter": "^7.7.7",
+    "@wdio/sync": "^7.7.8",
+    "allure-commandline": "^2.13.8",
+    "chai": "^4.3.4",
+    "chromedriver": "^91.0.1",
+    "rimraf": "^3.0.2",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "uid" : "5bd46f62091e533",
+  "name" : "Frames switch",
+  "fullName" : "Windows and Frames Miscellanous.Frames switch",
+  "historyId" : "1ce0aea10a4f20ff8576d2f21a3727f5",
+  "time" : {
+    "start" : 1627482378414,
+    "stop" : 1627482391417,
+    "duration" : 13003
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Windows and Frames Miscellanous"
+  }, {
+    "name" : "testClass",
+    "value" : "Windows and Frames Miscellanous"
+  }, {
+    "name" : "testMethod",
+    "value" : "Frames switch"
+  }, {
+    "name" : "package",
+    "value" : "Windows and Frames Miscellanous"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6d7e0d08ab3d0548",
+      "status" : "passed",
+      "time" : {
+        "start" : 1627481487885,
+        "stop" : 1627481499308,
+        "duration" : 11423
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bd46f62091e533.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

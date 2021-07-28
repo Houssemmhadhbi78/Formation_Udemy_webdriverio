@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627482319136' stop='1627482360272'>
+    <name>Ecommerce Application</name>
+    <title>Ecommerce Application</title>
+    <test-cases>
+        <test-case start='1627482319138' status='failed' stop='1627482360269'>
+            <name>End to End Test</name>
+            <title>End to End Test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='17ead5d5-f918-4823-9079-9fcc7fae19fe-attachment.png' type='image/png' size='26524'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`.alert-success`) to have text containing
+                
+                - Expected  - 1
+                + Received  + 2
+                
+                - Succes! Thank you! Your order will be delivered in next few weeks :-).
+                + ×
+                + Success! Thank you! Your order will be delivered in next few weeks :-).</message>
+                <stack-trace>Error: Expect $(`.alert-success`) to have text containing
+                
+                - Expected  - 1
+                + Received  + 2
+                
+                - Succes! Thank you! Your order will be delivered in next few weeks :-).
+                + ×
+                + Success! Thank you! Your order will be delivered in next few weeks :-).
+                    at Context.&lt;anonymous> (E:\2021.07.Formation_Udemy_webdriverio\test\specs\eCommerceE2E.js:44:37)
+                    at Context.executeSync (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

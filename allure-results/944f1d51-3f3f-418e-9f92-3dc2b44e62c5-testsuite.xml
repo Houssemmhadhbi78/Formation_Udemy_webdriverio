@@ -1,0 +1,104 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1627482319335' stop='1627482392633'>
+    <name>Ecommerce Application Login</name>
+    <title>Ecommerce Application Login</title>
+    <test-cases>
+        <test-case start='1627482319337' status='passed' stop='1627482330732'>
+            <name>TestCase: Login Fail Page Title</name>
+            <title>TestCase: Login Fail Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1627482330733' status='broken' stop='1627482362178'>
+            <name>TestCase: Login Success Page Title</name>
+            <title>TestCase: Login Success Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='57d0cdb6-53a6-409c-ad6c-167ad5053480-attachment.png' type='image/png' size='255259'/>
+                <attachment title='Screenshot' source='3a870f56-9c94-4d41-ae5a-6428dfb55d3a-attachment.png' type='image/png' size='258547'/>
+            </attachments>
+            <failure>
+                <message>element (".nav-link.btn.btn-primary") still not existing after 10000ms</message>
+                <stack-trace>Error: element (".nav-link.btn.btn-primary") still not existing after 10000ms
+                    at E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.elementErrorHandlerCallbackFn (E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\middlewares.js:23:32)
+                    at async Element.runCommandWithHooks (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Element.runCommandWithHooks (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Element.wrapCommandFn (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Element.elementErrorHandlerCallback (E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\middlewares.js:44:12)
+                    at Element.waitForExist (E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\commands\element\waitForExist.js:40:17)
+                    at Element.wrapCommandFn (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:60:23)
+                    at Element.elementErrorHandlerCallbackFn (E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\middlewares.js:23:65)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at Context.&lt;anonymous> (E:\2021.07.Formation_Udemy_webdriverio\test\specs\loginTest.js:39:27)
+                    at Context.executeSync (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1627482362179' status='broken' stop='1627482375276'>
+            <name>TestCase: Login Fail Page Title</name>
+            <title>TestCase: Login Fail Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ed251839-2eb5-4903-93c7-8f37ce95fe37-attachment.png' type='image/png' size='94906'/>
+            </attachments>
+            <failure>
+                <message>Error message did not appear</message>
+                <stack-trace>Error message did not appear
+                    at E:\2021.07.Formation_Udemy_webdriverio\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Browser.runCommandWithHooks (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at Context.&lt;anonymous> (E:\2021.07.Formation_Udemy_webdriverio\test\specs\loginTest.js:20:17)
+                    at Context.executeSync (E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:38:22)
+                    at E:\2021.07.Formation_Udemy_webdriverio\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1627482375277' status='passed' stop='1627482392631'>
+            <name>TestCase: Login Success Page Title</name>
+            <title>TestCase: Login Success Page Title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+                <parameter kind='argument' name='browser' value='chrome-92.0.4515.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

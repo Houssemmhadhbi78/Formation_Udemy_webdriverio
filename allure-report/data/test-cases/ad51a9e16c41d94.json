@@ -1,0 +1,46 @@
+{
+  "uid" : "ad51a9e16c41d94",
+  "name" : "Double click on Button",
+  "fullName" : "Functional Testing on Application .Double click on Button",
+  "historyId" : "d915c26c0022b4d86ecbbd21e578b56f",
+  "time" : {
+    "start" : 1627482732514,
+    "stop" : 1627482732514,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "Double click on Button"
+  }, {
+    "name" : "package",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad51a9e16c41d94.json",
+  "parameterValues" : [ ]
+}

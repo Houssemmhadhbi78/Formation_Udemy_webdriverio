@@ -1,0 +1,48 @@
+{
+  "uid" : "5fa68c4e67c26e3",
+  "name" : "Login Success Page Title Smoke",
+  "fullName" : "Ecommerce Application Login.Login Success Page Title Smoke",
+  "historyId" : "9df1279193b200a2fe15d2dd4e96f2a0",
+  "time" : {
+    "start" : 1627482335505,
+    "stop" : 1627482335505,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login Success Page Title Smoke"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5fa68c4e67c26e3.json",
+  "parameterValues" : [ ]
+}

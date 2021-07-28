@@ -1,0 +1,58 @@
+{
+  "uid" : "62d883284a54db76",
+  "name" : "Login Fail Page Title",
+  "fullName" : "Ecommerce Application Login.Login Fail Page Title",
+  "historyId" : "aa2d8fbeb7418d3e782dcc5bb153a2c9",
+  "time" : {
+    "start" : 1627482319499,
+    "stop" : 1627482335504,
+    "duration" : 16005
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testClass",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "testMethod",
+    "value" : "Login Fail Page Title"
+  }, {
+    "name" : "package",
+    "value" : "Ecommerce Application Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-92.0.4515.107"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62d883284a54db76.json",
+  "parameterValues" : [ "chrome-92.0.4515.107" ]
+}

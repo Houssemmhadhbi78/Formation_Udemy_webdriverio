@@ -1,0 +1,46 @@
+{
+  "uid" : "cfd8dc956f0426fb",
+  "name" : "Web Table Filter validation",
+  "fullName" : "Functional Testing on Application .Web Table Filter validation",
+  "historyId" : "a2c83d07af19ab2849569e86b6fbbb9",
+  "time" : {
+    "start" : 1627482319403,
+    "stop" : 1627482319403,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testClass",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "testMethod",
+    "value" : "Web Table Filter validation"
+  }, {
+    "name" : "package",
+    "value" : "Functional Testing on Application "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfd8dc956f0426fb.json",
+  "parameterValues" : [ ]
+}
